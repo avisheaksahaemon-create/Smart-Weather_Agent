@@ -1,3 +1,5 @@
+#Full Project build by Avisheak Saha Emon
+
 import requests
 import pyttsx3
 import time
@@ -52,7 +54,7 @@ def get_weather(city_name, api_key):
         return "Sorry, I couldn't find the weather for that city. Please check the city name."
 
 def weather_agent():
-    API_KEY = "c76f59d6247d5165d38eae8c577cecac"  # Replace with your OpenWeatherMap API key
+    API_KEY = "Your API key"  # Replace with your OpenWeatherMap API key
     print("🌤️ Hello! I'm your Smart Weather Agent.")
     speak("Hello! I'm your Smart Weather Agent.")
 
@@ -78,4 +80,5 @@ def weather_agent():
         speak(response)
 
 # Start the agent
+
 weather_agent()
